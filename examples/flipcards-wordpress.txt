@@ -1,0 +1,531 @@
+<div id="ce-audit-flipcards-fixed-1932" class="ceaf">
+  <div class="ceaf-shell">
+    <section class="ceaf-panel" aria-labelledby="ceaf-title">
+      <div class="ceaf-intro">
+        <div class="ceaf-kicker">Interactive Audit Cards</div>
+        <h2 id="ceaf-title">Where Systems Communicate Risk or Safety</h2>
+        <p>
+          Select each card to compare the risk signal, the protective redesign,
+          and one concrete audit action you can take.
+        </p>
+      </div>
+
+      <div class="ceaf-grid">
+        <button class="ceaf-card" type="button" aria-pressed="false">
+          <span class="ceaf-card-inner">
+            <span class="ceaf-face ceaf-front">
+              <span class="ceaf-step">01</span>
+              <span class="ceaf-title">Intake Forms</span>
+              <span class="ceaf-text">Identity fields and disclosure</span>
+              <span class="ceaf-front-note">Look for places where forms ask clients to fit into limited categories or disclose identity information without context.</span>
+              <span class="ceaf-hint">Select to review risk, redesign, and audit action</span>
+            </span>
+            <span class="ceaf-face ceaf-back">
+              <span class="ceaf-title">Intake Forms</span>
+              <span class="ceaf-summary">Forms can either invite accurate care or force clients into categories that do not fit.</span>
+              <span class="ceaf-back-grid">
+                <span><strong>Risk signals</strong><ul><li>Binary gender options</li><li>No space for pronouns or name used in care</li><li>Questions require disclosure without explaining why</li></ul></span>
+                <span><strong>Protective redesign</strong><ul><li>Ask gender identity, pronouns, and name used in care separately</li><li>Explain why each field is being collected</li><li>Include prefer not to answer when clinically appropriate</li></ul></span>
+              </span>
+              <span class="ceaf-action"><strong>Audit action</strong>Review one intake form and mark every place a client could be misnamed, misgendered, or forced to disclose more than needed.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="ceaf-card" type="button" aria-pressed="false">
+          <span class="ceaf-card-inner">
+            <span class="ceaf-face ceaf-front">
+              <span class="ceaf-step">02</span>
+              <span class="ceaf-title">Documentation Systems</span>
+              <span class="ceaf-text">Name visibility and chart flow</span>
+              <span class="ceaf-front-note">Trace how names, pronouns, portal settings, billing details, and clinical notes move through the system.</span>
+              <span class="ceaf-hint">Select to review risk, redesign, and audit action</span>
+            </span>
+            <span class="ceaf-face ceaf-back">
+              <span class="ceaf-title">Documentation Systems</span>
+              <span class="ceaf-summary">Documentation systems can protect privacy or accidentally expose identity information across scheduling, billing, and clinical care.</span>
+              <span class="ceaf-back-grid">
+                <span><strong>Risk signals</strong><ul><li>Legal name auto-populates everywhere</li><li>Chosen name is not visible to front desk or clinicians</li><li>Portal, labels, and reminders use different names</li></ul></span>
+                <span><strong>Protective redesign</strong><ul><li>Make name used in care visible in daily workflow</li><li>Limit legal name display to billing or legally required areas</li><li>Create a correction pathway staff know how to use</li></ul></span>
+              </span>
+              <span class="ceaf-action"><strong>Audit action</strong>Trace a client name from scheduling to visit note to portal message and identify where the wrong name could appear.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="ceaf-card" type="button" aria-pressed="false">
+          <span class="ceaf-card-inner">
+            <span class="ceaf-face ceaf-front">
+              <span class="ceaf-step">03</span>
+              <span class="ceaf-title">Physical Space</span>
+              <span class="ceaf-text">Bathrooms, signage, and safety cues</span>
+              <span class="ceaf-front-note">Notice what a client can infer before meeting a provider: safety, uncertainty, visibility, or exclusion.</span>
+              <span class="ceaf-hint">Select to review risk, redesign, and audit action</span>
+            </span>
+            <span class="ceaf-face ceaf-back">
+              <span class="ceaf-title">Physical Space</span>
+              <span class="ceaf-summary">Physical environments send fast signals about whether clients should relax, scan for danger, or avoid disclosure.</span>
+              <span class="ceaf-back-grid">
+                <span><strong>Risk signals</strong><ul><li>Gendered bathrooms without alternatives</li><li>No inclusive signage or representation</li><li>Waiting room materials assume heterosexual or cisgender clients</li></ul></span>
+                <span><strong>Protective redesign</strong><ul><li>Clear bathroom access information</li><li>Visible nondiscrimination and inclusion cues</li><li>Materials that reflect diverse families and identities</li></ul></span>
+              </span>
+              <span class="ceaf-action"><strong>Audit action</strong>Walk from entrance to check-in to restroom and note what a new LGBTQ+ client could infer before meeting a provider.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="ceaf-card" type="button" aria-pressed="false">
+          <span class="ceaf-card-inner">
+            <span class="ceaf-face ceaf-front">
+              <span class="ceaf-step">04</span>
+              <span class="ceaf-title">Communication</span>
+              <span class="ceaf-text">Phone, email, portal, and front desk</span>
+              <span class="ceaf-front-note">Review the scripts and messages that can either protect privacy or repeatedly force correction.</span>
+              <span class="ceaf-hint">Select to review risk, redesign, and audit action</span>
+            </span>
+            <span class="ceaf-face ceaf-back">
+              <span class="ceaf-title">Communication</span>
+              <span class="ceaf-summary">Communication systems can reinforce trust or repeatedly place clients in the position of correcting the organization.</span>
+              <span class="ceaf-back-grid">
+                <span><strong>Risk signals</strong><ul><li>Emails or texts use incorrect names</li><li>Phone scripts assume gender, spouse, or family structure</li><li>Front desk staff ask identity questions loudly</li></ul></span>
+                <span><strong>Protective redesign</strong><ul><li>Privacy-sensitive scripts</li><li>Clear notes about name and pronoun use</li><li>Staff correction language that is brief and accountable</li></ul></span>
+              </span>
+              <span class="ceaf-action"><strong>Audit action</strong>Review one voicemail, portal message, or phone script for names, pronouns, assumptions, and privacy risks.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="ceaf-card" type="button" aria-pressed="false">
+          <span class="ceaf-card-inner">
+            <span class="ceaf-face ceaf-front">
+              <span class="ceaf-step">05</span>
+              <span class="ceaf-title">Website &amp; Marketing</span>
+              <span class="ceaf-text">What clients can infer before contact</span>
+              <span class="ceaf-front-note">Check whether inclusion is visible, specific, and practical before a client ever reaches out.</span>
+              <span class="ceaf-hint">Select to review risk, redesign, and audit action</span>
+            </span>
+            <span class="ceaf-face ceaf-back">
+              <span class="ceaf-title">Website &amp; Marketing</span>
+              <span class="ceaf-summary">Websites and marketing materials tell clients whether inclusion is a real clinical value or an afterthought.</span>
+              <span class="ceaf-back-grid">
+                <span><strong>Risk signals</strong><ul><li>No statement of inclusion or access</li><li>Gendered language throughout service descriptions</li><li>No visible pathway to ask privacy or identity-related questions</li></ul></span>
+                <span><strong>Protective redesign</strong><ul><li>Specific affirming language</li><li>Inclusive images and examples</li><li>Clear contact path for accessibility, privacy, and documentation questions</li></ul></span>
+              </span>
+              <span class="ceaf-action"><strong>Audit action</strong>Open the website as a new client and identify the first three signals of safety or uncertainty.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="ceaf-card" type="button" aria-pressed="false">
+          <span class="ceaf-card-inner">
+            <span class="ceaf-face ceaf-front">
+              <span class="ceaf-step">06</span>
+              <span class="ceaf-title">Workflow &amp; Policies</span>
+              <span class="ceaf-text">Consistency beyond one good staff member</span>
+              <span class="ceaf-front-note">Look for whether affirming practice is written into the workflow or depends on individual memory.</span>
+              <span class="ceaf-hint">Select to review risk, redesign, and audit action</span>
+            </span>
+            <span class="ceaf-face ceaf-back">
+              <span class="ceaf-title">Workflow &amp; Policies</span>
+              <span class="ceaf-summary">Policies turn individual good intentions into reliable practice across staff, shifts, and systems.</span>
+              <span class="ceaf-back-grid">
+                <span><strong>Risk signals</strong><ul><li>No guidance for corrections</li><li>No protocol for misgendering</li><li>Practices vary by staff member</li></ul></span>
+                <span><strong>Protective redesign</strong><ul><li>Written correction process</li><li>Shared language for repair</li><li>Training that connects workflow to clinical safety</li></ul></span>
+              </span>
+              <span class="ceaf-action"><strong>Audit action</strong>Ask where a staff member would find the protocol for name correction, pronoun correction, and privacy-sensitive communication.</span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </section>
+  </div>
+</div>
+
+<style>
+  #ce-audit-flipcards-fixed-1932 {
+    --ceaf-dark-azure: #005c87;
+    --ceaf-azure: #209fd5;
+    --ceaf-apple: #8fc73e;
+    --ceaf-orange: #bd5200;
+    --ceaf-mist: #efefef;
+    --ceaf-white: #ffffff;
+    --ceaf-ink: #1d252c;
+    --ceaf-text: #405060;
+    --ceaf-line: #d9e2ea;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    color: var(--ceaf-ink) !important;
+    font-family: "Open Sans", Arial, sans-serif !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 *,
+  #ce-audit-flipcards-fixed-1932 *::before,
+  #ce-audit-flipcards-fixed-1932 *::after {
+    box-sizing: border-box !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-shell {
+    width: min(100%, 1100px) !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+    border: 1px solid var(--ceaf-line) !important;
+    border-radius: 18px !important;
+    background: var(--ceaf-mist) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-panel {
+    margin: 0 !important;
+    padding: 28px 36px 34px !important;
+    border: 1px solid var(--ceaf-line) !important;
+    border-radius: 16px !important;
+    background:
+      radial-gradient(circle at 100% 0%, rgba(32, 159, 213, .08), transparent 30%),
+      var(--ceaf-white) !important;
+    box-shadow: 0 10px 24px rgba(0, 92, 135, .08) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-intro {
+    max-width: 1060px !important;
+    margin: 0 0 18px !important;
+    padding: 0 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-kicker {
+    display: inline-flex !important;
+    align-items: center !important;
+    min-height: 36px !important;
+    margin: 0 0 14px !important;
+    padding: 7px 12px !important;
+    border-radius: 999px !important;
+    background: #e9f6fc !important;
+    color: var(--ceaf-dark-azure) !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    letter-spacing: .08em !important;
+    text-transform: uppercase !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 h2 {
+    max-width: 1060px !important;
+    margin: 0 0 12px !important;
+    padding: 0 !important;
+    color: var(--ceaf-dark-azure) !important;
+    font-size: clamp(30px, 4vw, 46px) !important;
+    font-weight: 800 !important;
+    line-height: 1.08 !important;
+    letter-spacing: 0 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 p {
+    max-width: 1060px !important;
+    margin: 0 !important;
+    padding: 0 0 0 18px !important;
+    border-left: 3px solid var(--ceaf-apple) !important;
+    color: var(--ceaf-text) !important;
+    font-size: clamp(16px, 1.3vw, 18px) !important;
+    font-weight: 600 !important;
+    line-height: 1.55 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-card {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    min-height: 520px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 16px !important;
+    background: transparent !important;
+    color: inherit !important;
+    cursor: pointer !important;
+    perspective: 1200px !important;
+    text-align: left !important;
+    box-shadow: none !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-card-inner,
+  #ce-audit-flipcards-fixed-1932 .ceaf-face {
+    min-height: 520px !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-card-inner {
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 16px !important;
+    transform-style: preserve-3d !important;
+    transition: transform .55s cubic-bezier(.2, .8, .2, 1) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-card.is-flipped .ceaf-card-inner {
+    transform: rotateY(180deg) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-card:hover .ceaf-card-inner {
+    transform: translateY(-3px) rotateX(2deg) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-card.is-flipped:hover .ceaf-card-inner {
+    transform: translateY(-3px) rotateY(180deg) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-face {
+    position: absolute !important;
+    inset: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 26px 28px !important;
+    border: 1px solid var(--ceaf-line) !important;
+    border-radius: 16px !important;
+    background:
+      radial-gradient(circle at 100% 0%, rgba(143, 199, 62, .12), transparent 28%),
+      var(--ceaf-white) !important;
+    box-shadow: 0 12px 28px rgba(0, 92, 135, .10) !important;
+    backface-visibility: hidden !important;
+    -webkit-backface-visibility: hidden !important;
+    overflow: hidden !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-face::before {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 0 auto !important;
+    height: 6px !important;
+    background: linear-gradient(90deg, var(--ceaf-dark-azure), var(--ceaf-azure), var(--ceaf-apple)) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-front {
+    justify-content: flex-start !important;
+    gap: 20px !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-back {
+    transform: rotateY(180deg) !important;
+    gap: 12px !important;
+    overflow-y: auto !important;
+    scrollbar-width: thin !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-step {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: fit-content !important;
+    min-height: 36px !important;
+    padding: 8px 13px !important;
+    border-radius: 999px !important;
+    background: #e9f6fc !important;
+    color: var(--ceaf-dark-azure) !important;
+    font-size: 13px !important;
+    font-weight: 900 !important;
+    line-height: 1 !important;
+    letter-spacing: .06em !important;
+    text-transform: uppercase !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-title {
+    display: block !important;
+    margin: 0 !important;
+    color: var(--ceaf-ink) !important;
+    font-size: clamp(30px, 3.3vw, 44px) !important;
+    font-weight: 900 !important;
+    line-height: 1.08 !important;
+    letter-spacing: 0 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-text,
+  #ce-audit-flipcards-fixed-1932 .ceaf-front-note,
+  #ce-audit-flipcards-fixed-1932 .ceaf-summary,
+  #ce-audit-flipcards-fixed-1932 .ceaf-action {
+    display: block !important;
+    color: var(--ceaf-text) !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    line-height: 1.45 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-front .ceaf-text {
+    padding: 0 0 0 16px !important;
+    border-left: 4px solid var(--ceaf-apple) !important;
+    font-size: clamp(17px, 1.8vw, 22px) !important;
+    font-weight: 850 !important;
+    line-height: 1.35 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-front-note {
+    margin-top: 2px !important;
+    padding: 16px 18px !important;
+    border: 1px solid #c9e6f2 !important;
+    border-radius: 14px !important;
+    background: #f4fbfe !important;
+    font-size: clamp(15px, 1.35vw, 18px) !important;
+    font-weight: 750 !important;
+    line-height: 1.45 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-hint {
+    display: block !important;
+    margin-top: auto !important;
+    padding: 13px 14px !important;
+    border-radius: 12px !important;
+    background: var(--ceaf-dark-azure) !important;
+    color: var(--ceaf-white) !important;
+    font-size: 13px !important;
+    font-weight: 900 !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-back .ceaf-title {
+    font-size: clamp(23px, 2.4vw, 32px) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-summary {
+    padding: 0 0 12px !important;
+    border-bottom: 1px solid var(--ceaf-line) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-back-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-back-grid > span,
+  #ce-audit-flipcards-fixed-1932 .ceaf-action {
+    display: block !important;
+    padding: 13px 14px !important;
+    border: 1px solid var(--ceaf-line) !important;
+    border-radius: 12px !important;
+    background: #fbfdff !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-back strong,
+  #ce-audit-flipcards-fixed-1932 .ceaf-action strong {
+    display: block !important;
+    margin: 0 0 8px !important;
+    color: var(--ceaf-orange) !important;
+    font-size: 12px !important;
+    font-weight: 900 !important;
+    line-height: 1.2 !important;
+    letter-spacing: .06em !important;
+    text-transform: uppercase !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-back-grid > span:nth-child(2) strong {
+    color: var(--ceaf-apple) !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-action {
+    border-left: 5px solid var(--ceaf-azure) !important;
+    background: #f4fbfe !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 ul {
+    display: grid !important;
+    gap: 6px !important;
+    margin: 0 !important;
+    padding-left: 18px !important;
+    color: var(--ceaf-text) !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    line-height: 1.38 !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 .ceaf-card:focus-visible .ceaf-face {
+    outline: 3px solid rgba(32, 159, 213, .25) !important;
+    outline-offset: 3px !important;
+  }
+
+  #ce-audit-flipcards-fixed-1932 br {
+    display: none !important;
+  }
+
+  @media (max-width: 900px) {
+    #ce-audit-flipcards-fixed-1932 .ceaf-grid,
+    #ce-audit-flipcards-fixed-1932 .ceaf-back-grid {
+      grid-template-columns: 1fr !important;
+    }
+
+    #ce-audit-flipcards-fixed-1932 .ceaf-card,
+    #ce-audit-flipcards-fixed-1932 .ceaf-card-inner,
+    #ce-audit-flipcards-fixed-1932 .ceaf-face {
+      min-height: 610px !important;
+    }
+  }
+
+  @media (max-width: 560px) {
+    #ce-audit-flipcards-fixed-1932 {
+      padding: 8px !important;
+    }
+
+    #ce-audit-flipcards-fixed-1932 .ceaf-shell {
+      padding: 8px !important;
+      border-radius: 16px !important;
+    }
+
+    #ce-audit-flipcards-fixed-1932 .ceaf-panel {
+      padding: 24px 18px 22px !important;
+      border-radius: 14px !important;
+    }
+
+    #ce-audit-flipcards-fixed-1932 .ceaf-face {
+      padding: 24px 20px !important;
+    }
+
+    #ce-audit-flipcards-fixed-1932 .ceaf-card,
+    #ce-audit-flipcards-fixed-1932 .ceaf-card-inner,
+    #ce-audit-flipcards-fixed-1932 .ceaf-face {
+      min-height: 650px !important;
+    }
+  }
+</style>
+
+<script>
+(function(){
+  function initAuditFlipCardsFixed1932(){
+    var root = document.getElementById("ce-audit-flipcards-fixed-1932");
+    if(!root || root.dataset.ceafReady === "true") return;
+    root.dataset.ceafReady = "true";
+
+    root.addEventListener("click", function(event){
+      var card = event.target.closest(".ceaf-card");
+      if(!card || !root.contains(card)) return;
+      event.preventDefault();
+      event.stopPropagation();
+      var flipped = card.classList.toggle("is-flipped");
+      card.setAttribute("aria-pressed", flipped ? "true" : "false");
+    }, true);
+  }
+
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", initAuditFlipCardsFixed1932);
+  } else {
+    initAuditFlipCardsFixed1932();
+  }
+
+  window.addEventListener("load", initAuditFlipCardsFixed1932);
+  setTimeout(initAuditFlipCardsFixed1932, 500);
+  setTimeout(initAuditFlipCardsFixed1932, 1500);
+})();
+</script>

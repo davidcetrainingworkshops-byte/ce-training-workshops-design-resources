@@ -1,0 +1,725 @@
+<div id="ce-branching-tree-1932" class="cex-branch-widget">
+  <section class="cex-branch-shell" aria-labelledby="cex-branch-title">
+    <div class="cex-branch-head">
+      <div class="cex-kicker">Branching Scenario</div>
+      <h2 id="cex-branch-title">Apply What You Noticed</h2>
+      <p>
+        Move through one clinical decision at a time. Each choice changes the
+        next question and shows what that path may capture or miss.
+      </p>
+    </div>
+
+    <div class="cex-scenario-box">
+      <strong>Scenario:</strong>
+      A 19-year-old client presents with anxiety and depression. They report
+      being repeatedly misgendered at home and avoiding family interactions.
+      Their parent pays for therapy, they are unsure what information is visible
+      in the portal, and they say, "It is easier if I just stay quiet."
+    </div>
+
+    <div class="cex-branch-card" aria-live="polite">
+      <div class="cex-progress-line">
+        <span data-branch-step>Question 1 of 3</span>
+        <span data-branch-path>Start</span>
+      </div>
+      <div class="cex-progress-track">
+        <div data-branch-progress></div>
+      </div>
+
+      <div class="cex-question-label" data-branch-label>First clinical move</div>
+      <h3 data-branch-question>Where would you begin the assessment?</h3>
+      <p data-branch-context>
+        The client has named anxiety and depression, but the scenario also
+        includes identity-based stress, possible family-system risk, and privacy
+        concerns.
+      </p>
+
+      <div class="cex-choice-list" data-branch-choices></div>
+
+      <div class="cex-feedback" data-branch-feedback></div>
+    </div>
+
+    <div class="cex-actions">
+      <div class="cex-action cex-submit" role="button" tabindex="0" data-branch-submit aria-disabled="true">
+        Submit Answer
+      </div>
+      <div class="cex-action cex-next" role="button" tabindex="0" data-branch-next aria-disabled="true">
+        Next
+      </div>
+      <div class="cex-action" role="button" tabindex="0" data-branch-back>
+        Back
+      </div>
+      <div class="cex-action" role="button" tabindex="0" data-branch-reset>
+        Start Over
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+  #ce-branching-tree-1932 {
+    --ce-blue: #005c87;
+    --ce-sky: #209fd5;
+    --ce-green: #8fc73e;
+    --ce-orange: #bd5200;
+    --ce-bg: #eef2f5;
+    --ce-card: #ffffff;
+    --ce-ink: #1d252c;
+    --ce-text: #314252;
+    --ce-line: #d9e2ea;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    color: var(--ce-text) !important;
+    font-family: "Open Sans", Arial, sans-serif !important;
+  }
+
+  #ce-branching-tree-1932 *,
+  #ce-branching-tree-1932 *::before,
+  #ce-branching-tree-1932 *::after {
+    box-sizing: border-box !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-shell {
+    width: min(100%, 1100px) !important;
+    min-height: 0 !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+    border: 1px solid var(--ce-line) !important;
+    border-radius: 18px !important;
+    background: var(--ce-bg) !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-head,
+  #ce-branching-tree-1932 .cex-scenario-box,
+  #ce-branching-tree-1932 .cex-branch-card {
+    margin: 0 !important;
+    padding: 22px 28px !important;
+    border: 1px solid var(--ce-line) !important;
+    border-radius: 14px !important;
+    background: var(--ce-card) !important;
+    box-shadow: 0 8px 20px rgba(0, 92, 135, .06) !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-head {
+    background:
+      radial-gradient(circle at 100% 0%, rgba(32, 159, 213, .08), transparent 30%),
+      var(--ce-card) !important;
+  }
+
+  #ce-branching-tree-1932 .cex-kicker,
+  #ce-branching-tree-1932 .cex-question-label {
+    display: inline-flex !important;
+    align-items: center !important;
+    min-height: 34px !important;
+    margin: 0 0 14px !important;
+    padding: 7px 12px !important;
+    border-radius: 999px !important;
+    background: #e9f6fc !important;
+    color: var(--ce-blue) !important;
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    letter-spacing: .06em !important;
+    text-transform: uppercase !important;
+  }
+
+  #ce-branching-tree-1932 h2,
+  #ce-branching-tree-1932 h3,
+  #ce-branching-tree-1932 p {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+
+  #ce-branching-tree-1932 h2 {
+    max-width: 980px !important;
+    color: var(--ce-blue) !important;
+    font-size: clamp(30px, 4vw, 48px) !important;
+    font-weight: 800 !important;
+    line-height: 1.08 !important;
+    letter-spacing: 0 !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-head p,
+  #ce-branching-tree-1932 .cex-scenario-box,
+  #ce-branching-tree-1932 [data-branch-context] {
+    color: var(--ce-text) !important;
+    font-size: clamp(15px, 1.3vw, 17px) !important;
+    font-weight: 650 !important;
+    line-height: 1.5 !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-head p {
+    max-width: 980px !important;
+    margin-top: 12px !important;
+    padding-left: 18px !important;
+    border-left: 3px solid var(--ce-green) !important;
+  }
+
+  #ce-branching-tree-1932 .cex-scenario-box {
+    margin-top: 10px !important;
+    padding: 16px 20px !important;
+    border-left: 5px solid var(--ce-orange) !important;
+  }
+
+  #ce-branching-tree-1932 .cex-scenario-box strong {
+    color: var(--ce-orange) !important;
+    font-weight: 900 !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-card {
+    margin-top: 10px !important;
+    border-top: 5px solid var(--ce-green) !important;
+  }
+
+  #ce-branching-tree-1932 .cex-progress-line {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+    margin: 0 !important;
+    color: var(--ce-blue) !important;
+    font-size: 13px !important;
+    font-weight: 900 !important;
+    line-height: 1.2 !important;
+  }
+
+  #ce-branching-tree-1932 .cex-progress-track {
+    height: 9px !important;
+    margin: 8px 0 14px !important;
+    border-radius: 999px !important;
+    background: #dcecf4 !important;
+    overflow: hidden !important;
+  }
+
+  #ce-branching-tree-1932 .cex-progress-track div {
+    width: 0%;
+    height: 100% !important;
+    border-radius: 999px !important;
+    background: linear-gradient(90deg, var(--ce-blue), var(--ce-sky), var(--ce-green)) !important;
+    transition: width .22s ease !important;
+  }
+
+  #ce-branching-tree-1932 h3 {
+    max-width: 980px !important;
+    color: var(--ce-ink) !important;
+    font-size: clamp(24px, 3vw, 34px) !important;
+    font-weight: 800 !important;
+    line-height: 1.12 !important;
+    letter-spacing: 0 !important;
+  }
+
+  #ce-branching-tree-1932 [data-branch-context] {
+    max-width: 980px !important;
+    margin-top: 8px !important;
+  }
+
+  #ce-branching-tree-1932 .cex-choice-list {
+    display: grid !important;
+    gap: 8px !important;
+    margin: 12px 0 0 !important;
+    padding: 0 !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-choice,
+  #ce-branching-tree-1932 .cex-action {
+    margin: 0 !important;
+    padding: 12px 14px !important;
+    border: 1px solid var(--ce-line) !important;
+    border-radius: 12px !important;
+    background: var(--ce-card) !important;
+    color: var(--ce-text) !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    line-height: 1.28 !important;
+    transition: border-color .18s ease, background .18s ease, color .18s ease, box-shadow .18s ease !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-choice {
+    min-height: 52px !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-choice span {
+    display: block !important;
+    margin: 0 0 4px !important;
+    color: var(--ce-orange) !important;
+    font-size: 12px !important;
+    font-weight: 900 !important;
+    line-height: 1.15 !important;
+    letter-spacing: .05em !important;
+    text-transform: uppercase !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-choice:hover,
+  #ce-branching-tree-1932 .cex-branch-choice:focus,
+  #ce-branching-tree-1932 .cex-action:hover,
+  #ce-branching-tree-1932 .cex-action:focus {
+    border-color: var(--ce-sky) !important;
+    outline: 3px solid rgba(32, 159, 213, .2) !important;
+    outline-offset: 2px !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-choice.is-selected {
+    background: var(--ce-blue) !important;
+    border-color: var(--ce-blue) !important;
+    color: #ffffff !important;
+  }
+
+  #ce-branching-tree-1932 .cex-branch-choice.is-selected span {
+    color: #ffffff !important;
+  }
+
+  #ce-branching-tree-1932 .cex-feedback {
+    display: none;
+    margin: 10px 0 0 !important;
+    padding: 14px 16px !important;
+    border: 1px solid var(--ce-line) !important;
+    border-left: 5px solid var(--ce-green) !important;
+    border-radius: 12px !important;
+    background: #fbfdfe !important;
+    color: var(--ce-text) !important;
+    font-size: 15px !important;
+    font-weight: 650 !important;
+    line-height: 1.45 !important;
+  }
+
+  #ce-branching-tree-1932 .cex-feedback.is-visible {
+    display: block !important;
+  }
+
+  #ce-branching-tree-1932 .cex-feedback strong {
+    color: var(--ce-blue) !important;
+    font-weight: 900 !important;
+  }
+
+  #ce-branching-tree-1932 .cex-actions {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 8px !important;
+    margin: 10px 0 0 !important;
+    padding: 0 !important;
+  }
+
+  #ce-branching-tree-1932 .cex-action {
+    min-width: 0 !important;
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  #ce-branching-tree-1932 .cex-submit {
+    background: var(--ce-orange) !important;
+    border-color: var(--ce-orange) !important;
+    color: #ffffff !important;
+  }
+
+  #ce-branching-tree-1932 .cex-next {
+    background: var(--ce-blue) !important;
+    border-color: var(--ce-blue) !important;
+    color: #ffffff !important;
+  }
+
+  #ce-branching-tree-1932 .cex-action[aria-disabled="true"] {
+    opacity: .48 !important;
+    cursor: not-allowed !important;
+  }
+
+  #ce-branching-tree-1932 br {
+    display: none !important;
+  }
+
+  @media (max-width: 680px) {
+    #ce-branching-tree-1932 {
+      padding: 8px !important;
+    }
+
+    #ce-branching-tree-1932 .cex-branch-shell {
+      padding: 8px !important;
+      border-radius: 16px !important;
+    }
+
+    #ce-branching-tree-1932 .cex-branch-head,
+    #ce-branching-tree-1932 .cex-branch-card {
+      padding: 20px !important;
+    }
+
+    #ce-branching-tree-1932 .cex-progress-line,
+    #ce-branching-tree-1932 .cex-actions {
+      grid-template-columns: 1fr !important;
+    }
+
+    #ce-branching-tree-1932 .cex-progress-line {
+      display: grid !important;
+    }
+
+    #ce-branching-tree-1932 h2 {
+      font-size: clamp(30px, 10vw, 42px) !important;
+    }
+  }
+</style>
+
+<script>
+(function(){
+  function initBranchingTree1932(){
+    var root = document.getElementById("ce-branching-tree-1932");
+    if(!root || root.getAttribute("data-branch-ready") === "true") return;
+    root.setAttribute("data-branch-ready", "true");
+
+    var nodes = {
+      start: {
+        step: 1,
+        label: "First clinical move",
+        question: "Where would you begin the assessment?",
+        context: "The client has named anxiety and depression, but the scenario also includes identity-based stress, possible family-system risk, and privacy concerns.",
+        choices: [
+          {
+            label: "Broaden the lens",
+            text: "Ask about identity-based stress, safety at home, privacy, and support.",
+            next: "privacy",
+            feedback: "<strong>Strong start.</strong> You are not treating symptoms as disconnected from the client's environment. This opens the door to safety, confidentiality, and protective supports."
+          },
+          {
+            label: "Start narrow",
+            text: "Focus first on school, work, sleep, and general anxiety symptoms.",
+            next: "missed",
+            feedback: "<strong>This may miss context.</strong> General symptoms matter, but the client has already named misgendering, avoidance, and silence. Those clues need clinical attention."
+          },
+          {
+            label: "Repair language first",
+            text: "Ask what name, pronouns, and identity language they want used here and in documentation.",
+            next: "privacy",
+            feedback: "<strong>Good affirming move.</strong> Accurate language helps build trust. The next step is making sure that language is safe in records, billing, and family-accessible spaces."
+          }
+        ]
+      },
+      missed: {
+        step: 2,
+        label: "Course correction",
+        question: "The client says, \"It is easier if I just stay quiet.\" What should you do next?",
+        context: "This may signal self-silencing, fear of consequences, or a lack of safety in the family system.",
+        choices: [
+          {
+            label: "Widen assessment",
+            text: "Ask what happens when they speak up at home and whether they feel safe.",
+            next: "risk",
+            feedback: "<strong>Better direction.</strong> You are moving from a narrow symptom lens toward the relational and safety context."
+          },
+          {
+            label: "Normalize it",
+            text: "Tell them many young adults avoid family conflict and continue with anxiety treatment.",
+            next: "end_minimize",
+            feedback: "<strong>Careful.</strong> This risks minimizing identity-based harm. Avoidance may be protective, but it can also indicate danger, isolation, or loss of support."
+          },
+          {
+            label: "Ask privacy first",
+            text: "Clarify what the parent can see in the portal, billing, and documentation.",
+            next: "risk",
+            feedback: "<strong>Important move.</strong> If a parent pays for therapy, privacy and documentation can directly affect safety."
+          }
+        ]
+      },
+      privacy: {
+        step: 2,
+        label: "Confidentiality branch",
+        question: "The parent pays for therapy. What is the next clinical priority?",
+        context: "The client is unsure what information is visible in the portal. Privacy may affect what they can safely disclose.",
+        choices: [
+          {
+            label: "Clarify privacy",
+            text: "Explain confidentiality, portal access, billing limits, and documentation choices.",
+            next: "risk",
+            feedback: "<strong>Strong choice.</strong> Privacy is not administrative background here. It can affect safety, disclosure, and treatment engagement."
+          },
+          {
+            label: "Ask parent to join",
+            text: "Invite the parent into the next session to improve communication.",
+            next: "end_privacy",
+            feedback: "<strong>Slow down.</strong> Family involvement may help later, but only after assessing safety, consent, and the risk of outing or retaliation."
+          },
+          {
+            label: "Continue assessment",
+            text: "Move into suicide risk assessment and supports while noting privacy concerns.",
+            next: "risk",
+            feedback: "<strong>Reasonable path.</strong> Risk and privacy can be assessed together. Do not leave portal access unresolved."
+          }
+        ]
+      },
+      risk: {
+        step: 3,
+        label: "Risk and protection",
+        question: "How would you complete this part of the assessment?",
+        context: "The clinical picture now includes anxiety/depression, misgendering, avoidance, possible family rejection, privacy concerns, and self-silencing.",
+        choices: [
+          {
+            label: "Assess both risk and protection",
+            text: "Ask about suicide risk, immediate safety, chosen supports, and affirming spaces.",
+            next: "end_strong",
+            feedback: "<strong>Strong clinical branch.</strong> This connects symptoms to minority stress, safety, privacy, and protective affirmation."
+          },
+          {
+            label: "Focus only on suicide risk",
+            text: "Complete a suicide screen, then return to general anxiety treatment.",
+            next: "end_partial",
+            feedback: "<strong>Partly right.</strong> Suicide risk is essential, but the plan is incomplete without supports, privacy, family context, and affirmation."
+          },
+          {
+            label: "Focus on coping skills",
+            text: "Teach grounding skills and encourage the client to speak up at home.",
+            next: "end_unsafe",
+            feedback: "<strong>Not enough yet.</strong> Coping skills can help, but encouraging disclosure or confrontation before assessing safety may increase risk."
+          }
+        ]
+      },
+      end_strong: {
+        step: 3,
+        ending: true,
+        label: "Branch complete",
+        question: "Strong path: risk assessment plus protective affirmation",
+        context: "You connected the client's symptoms to identity-based stress, family response, confidentiality, safety, and support.",
+        feedback: "<strong>Clinical takeaway:</strong> Affirming care is not separate from risk assessment. It helps the clinician understand what is creating harm and what may create protection."
+      },
+      end_partial: {
+        step: 3,
+        ending: true,
+        label: "Branch complete",
+        question: "Partial path: risk identified, context still thin",
+        context: "You included suicide risk, which matters, but the assessment still needs privacy, family context, identity stress, and protective supports.",
+        feedback: "<strong>Clinical takeaway:</strong> A risk screen is necessary, but it is not the whole assessment. Ask what makes risk worse and what makes safety more possible."
+      },
+      end_unsafe: {
+        step: 3,
+        ending: true,
+        label: "Branch complete",
+        question: "Risky path: skills before safety",
+        context: "Coping skills are useful, but they should not replace safety assessment or pressure the client to confront unsafe people.",
+        feedback: "<strong>Clinical takeaway:</strong> Before recommending disclosure, confrontation, or family conversation, assess privacy, safety, supports, and possible retaliation."
+      },
+      end_minimize: {
+        step: 3,
+        ending: true,
+        label: "Branch complete",
+        question: "Minimizing path: key clues were missed",
+        context: "The assessment treated self-silencing as ordinary conflict rather than a possible response to identity-based harm.",
+        feedback: "<strong>Clinical takeaway:</strong> Avoid minimizing family rejection, misgendering, or silence. These may directly affect safety, depression, suicidality, and access to support."
+      },
+      end_privacy: {
+        step: 3,
+        ending: true,
+        label: "Branch complete",
+        question: "Privacy risk: family involvement came too soon",
+        context: "Family involvement may be helpful only after the client gives informed consent and safety has been assessed.",
+        feedback: "<strong>Clinical takeaway:</strong> When identity, billing, portals, and family access overlap, confidentiality planning is clinical care."
+      }
+    };
+
+    var state = {
+      current: "start",
+      history: [],
+      labels: [],
+      selectedChoice: null,
+      pendingNext: null
+    };
+
+    var step = root.querySelector("[data-branch-step]");
+    var path = root.querySelector("[data-branch-path]");
+    var progress = root.querySelector("[data-branch-progress]");
+    var label = root.querySelector("[data-branch-label]");
+    var question = root.querySelector("[data-branch-question]");
+    var context = root.querySelector("[data-branch-context]");
+    var choices = root.querySelector("[data-branch-choices]");
+    var feedback = root.querySelector("[data-branch-feedback]");
+    var submit = root.querySelector("[data-branch-submit]");
+    var next = root.querySelector("[data-branch-next]");
+    var back = root.querySelector("[data-branch-back]");
+
+    function setSubmitEnabled(enabled){
+      if(submit) submit.setAttribute("aria-disabled", enabled ? "false" : "true");
+    }
+
+    function setNextEnabled(enabled){
+      if(next) next.setAttribute("aria-disabled", enabled ? "false" : "true");
+    }
+
+    function setText(el, text){
+      if(el) el.textContent = text;
+    }
+
+    function render(){
+      var node = nodes[state.current];
+      if(!node) return;
+
+      state.selectedChoice = null;
+      state.pendingNext = null;
+      setText(step, node.ending ? "Summary" : "Question " + node.step + " of 3");
+      setText(path, state.labels.length ? state.labels.join(" / ") : "Start");
+      if(progress) progress.style.width = ((node.ending ? 3 : node.step) / 3 * 100) + "%";
+      setText(label, node.label);
+      setText(question, node.question);
+      setText(context, node.context);
+      choices.innerHTML = "";
+      feedback.classList.remove("is-visible");
+      feedback.innerHTML = "";
+      setSubmitEnabled(false);
+      setNextEnabled(false);
+
+      if(node.ending){
+        feedback.innerHTML = node.feedback;
+        feedback.classList.add("is-visible");
+        setSubmitEnabled(false);
+        setNextEnabled(false);
+        back.setAttribute("aria-disabled", state.history.length ? "false" : "true");
+        return;
+      }
+
+      node.choices.forEach(function(choice, index){
+        var el = document.createElement("div");
+        el.className = "cex-branch-choice";
+        el.setAttribute("role", "button");
+        el.setAttribute("tabindex", "0");
+        el.setAttribute("data-choice-index", String(index));
+        el.setAttribute("aria-pressed", "false");
+        el.innerHTML = "<span>" + choice.label + "</span>" + choice.text;
+        choices.appendChild(el);
+      });
+
+      back.setAttribute("aria-disabled", state.history.length ? "false" : "true");
+    }
+
+    function choose(choiceEl){
+      var node = nodes[state.current];
+      if(!node || node.ending) return;
+
+      var selected = node.choices[Number(choiceEl.getAttribute("data-choice-index"))];
+      if(!selected) return;
+
+      Array.prototype.forEach.call(root.querySelectorAll(".cex-branch-choice"), function(el){
+        el.classList.remove("is-selected");
+        el.setAttribute("aria-pressed", "false");
+      });
+      choiceEl.classList.add("is-selected");
+      choiceEl.setAttribute("aria-pressed", "true");
+      state.selectedChoice = selected;
+      state.pendingNext = null;
+      setSubmitEnabled(true);
+      setNextEnabled(false);
+
+      feedback.classList.remove("is-visible");
+      feedback.innerHTML = "";
+    }
+
+    function submitChoice(){
+      var selected = state.selectedChoice;
+      if(!selected) {
+        feedback.innerHTML = "<strong>Select an answer first.</strong> Choose the clinical move you would make, then submit your answer.";
+        feedback.classList.add("is-visible");
+        return;
+      }
+
+      feedback.innerHTML = selected.feedback;
+      feedback.classList.add("is-visible");
+      setSubmitEnabled(false);
+      state.pendingNext = selected;
+      setNextEnabled(true);
+    }
+
+    function goNext(){
+      var selected = state.pendingNext;
+      if(!selected) return;
+
+      state.history.push(state.current);
+      state.labels.push(selected.label);
+      state.current = selected.next;
+      state.selectedChoice = null;
+      state.pendingNext = null;
+      render();
+    }
+
+    function goBack(){
+      if(!state.history.length) return;
+      state.current = state.history.pop();
+      state.labels.pop();
+      state.selectedChoice = null;
+      state.pendingNext = null;
+      render();
+    }
+
+    function reset(){
+      state.current = "start";
+      state.history = [];
+      state.labels = [];
+      state.selectedChoice = null;
+      state.pendingNext = null;
+      render();
+    }
+
+    function closestFrom(target, selector){
+      while(target && target !== document){
+        if(target.matches && target.matches(selector)) return target;
+        target = target.parentNode;
+      }
+      return null;
+    }
+
+    function activate(event){
+      var target = event.target && event.target.nodeType === 1 ? event.target : event.target.parentElement;
+      var choice = closestFrom(target, ".cex-branch-choice");
+      var submitBtn = closestFrom(target, "[data-branch-submit]");
+      var nextBtn = closestFrom(target, "[data-branch-next]");
+      var backBtn = closestFrom(target, "[data-branch-back]");
+      var resetBtn = closestFrom(target, "[data-branch-reset]");
+      var control = choice || submitBtn || nextBtn || backBtn || resetBtn;
+
+      if(!control || !root.contains(control)) return;
+
+      event.preventDefault();
+      event.stopPropagation();
+
+      if(choice){
+        choose(choice);
+        return;
+      }
+      if(submitBtn){
+        submitChoice();
+        return;
+      }
+      if(nextBtn){
+        goNext();
+        return;
+      }
+      if(backBtn){
+        goBack();
+        return;
+      }
+      if(resetBtn){
+        reset();
+      }
+    }
+
+    root.addEventListener("click", activate, true);
+    root.addEventListener("keydown", function(event){
+      if(event.key !== "Enter" && event.key !== " ") return;
+      activate(event);
+    }, true);
+
+    render();
+  }
+
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", initBranchingTree1932);
+  } else {
+    initBranchingTree1932();
+  }
+
+  window.addEventListener("load", initBranchingTree1932);
+  setTimeout(initBranchingTree1932, 500);
+  setTimeout(initBranchingTree1932, 1500);
+})();
+</script>
