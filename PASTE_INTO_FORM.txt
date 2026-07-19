@@ -1,0 +1,18 @@
+COMPANY NAME AND BLURB
+
+CE Training Workshops is a continuing-education platform for social workers, mental-health professionals, and other helping professionals. We deliver live webinars, self-study courses, and subscription-based learning through a WordPress, WooCommerce, and Sensei LMS experience. Our product should feel credible, supportive, accessible, and human—professional enough for regulated continuing education without feeling clinical or institutional.
+
+Website: https://cetrainingworkshops.com/
+
+LINK CODE FROM GITHUB
+
+No public GitHub repository is included. Attach the supplied frontend-focused product-code folder instead.
+
+ANY OTHER NOTES
+
+Use the CE Training Workshops logo and established palette: Dark Azure #005c87, Azure #209fd5, Apple Green #8fc73e, Yellow Green #d3dd25, Burnt Orange #bd5200, Dark Gray #818284, Mist Green #f3f9d6, and Mist Gray #efefef. Primary typography is Open Sans with Arial as the fallback; CTA text may use bold Arial.
+
+The visual style should be clean, welcoming, trustworthy, and accessible, with high legibility, clear hierarchy, generous spacing, rounded controls, restrained shadows, and obvious progress/completion states. Design for adult professional learners taking long courses on laptops and tablets. Favor keyboard-friendly interactions, captions/transcripts, and WCAG-conscious contrast. Avoid styling that feels overly playful, generic-corporate, or hospital-like.
+
+The product includes live webinars, on-demand courses, quizzes, evaluations, and certificates. Do not invent or publish accreditation claims, approval periods, CE-hour guarantees, instructor credentials, or certificate eligibility rules; these require human compliance review.
+
